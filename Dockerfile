@@ -10,4 +10,4 @@ RUN zypper install -y -l --recommends mono-core mono-extras unzip curl shadow sc
 ## clean zypper cache for smaller image
 RUN zypper cc --all
 
-LABEL version=0.0.2 Description="An image for mono apps, based on openSUSE Leap 15.4" Vendor="Mathias.Homann@openSUSE.org"
+LABEL version=0.3 Description="An image for mono apps, based on openSUSE Leap 15.4" Vendor="Mathias.Homann@openSUSE.org"
